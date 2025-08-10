@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandyn Ewanek | DataSimple.education</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600">brandynewanek.github.io</a>
+            <div class="space-x-4 hidden md:block">
+                <a href="https://www.datasimple.education/" class="text-gray-600 hover:text-indigo-600 transition duration-300">Home</a>
+                <a href="https://www.datasimple.education/programs" class="text-gray-600 hover:text-indigo-600 transition duration-300">Programs</a>
+                <a href="https://www.datasimple.education/datablog" class="text-gray-600 hover:text-indigo-600 transition duration-300">Blog</a>
+            </div>
+            <a href="https://www.datasimple.education/" class="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300 md:hidden">
+                Go to DataSimple
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="container mx-auto px-6 py-20 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-indigo-800">
+                Hi, I'm Brandyn. Welcome to my GitHub Pages.
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-600 mb-8">
+                This page is a hub for my projects and a showcase of my work.
+                I'm passionate about making data science accessible and practical.
+                Learn more about my mission and methods at
+                <a href="https://www.datasimple.education/" class="text-indigo-600 hover:underline font-semibold transition duration-300">DataSimple.education</a>.
+            </p>
+            <a href="https://www.datasimple.education/" class="inline-block bg-indigo-600 text-white font-semibold px-8 py-4 rounded-lg shadow-xl hover:bg-indigo-700 transform hover:scale-105 transition duration-300">
+                Explore DataSimple.education &rarr;
+            </a>
+        </div>
+    </main>
+
+    <!-- Featured Content Section -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">What You'll Find at DataSimple</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Programs -->
+                <div class="bg-gray-50 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-4xl text-indigo-600 mb-4">
+                        <!-- Book icon as SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book">
+                            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5z"/>
+                            <path d="M14 2H6.5A2.5 2.5 0 0 0 4 4.5v15A2.5 2.5 0 0 0 6.5 22H20V2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Our Programs</h3>
+                    <p class="text-gray-600 mb-4">
+                        Discover a curriculum built for mastery, covering everything from Python basics to deep learning.
+                    </p>
+                    <a href="https://www.datasimple.education/programs" class="text-indigo-600 hover:underline font-semibold">
+                        View All Programs &rarr;
+                    </a>
+                </div>
+
+                <!-- Card 2: DataBlog -->
+                <div class="bg-gray-50 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-4xl text-indigo-600 mb-4">
+                        <!-- Pen icon as SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-edit">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">DataBlog</h3>
+                    <p class="text-gray-600 mb-4">
+                        Read insightful articles and stay up-to-date with the latest trends and techniques in data science.
+                    </p>
+                    <a href="https://www.datasimple.education/datablog" class="text-indigo-600 hover:underline font-semibold">
+                        Read the Blog &rarr;
+                    </a>
+                </div>
+
+                <!-- Card 3: Contact & Community -->
+                <div class="bg-gray-50 rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-4xl text-indigo-600 mb-4">
+                        <!-- Mail icon as SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+                            <rect width="20" height="16" x="2" y="4" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Contact Us</h3>
+                    <p class="text-gray-600 mb-4">
+                        Have questions? Get in touch with me and the community to get the help you need.
+                    </p>
+                    <a href="https://www.datasimple.education/contact" class="text-indigo-600 hover:underline font-semibold">
+                        Contact Brandyn &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Other Resources Section -->
+    <section class="bg-gray-200 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">More Data Science Resources</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Resource 1: Coursera -->
+                <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-4xl text-indigo-600 mb-4">
+                        <!-- Graduation cap icon as SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap">
+                            <path d="M21.43 10.37L12.5 15.02L3.57 10.37L12.5 5.72L21.43 10.37Z"/>
+                            <path d="M3.5 15.5l8.5 4.5 8.5-4.5"/>
+                            <path d="M3.5 10.5l8.5 4.5 8.5-4.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Coursera</h3>
+                    <p class="text-gray-600 mb-4">
+                        Offers online courses, specializations, and degrees from top universities and companies.
+                    </p>
+                    <a href="https://www.coursera.org/courses?query=data%20science" class="text-indigo-600 hover:underline font-semibold">
+                        Visit Coursera &rarr;
+                    </a>
+                </div>
+
+                <!-- Resource 2: Kaggle -->
+                <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-4xl text-indigo-600 mb-4">
+                        <!-- Atom icon as SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-atom">
+                            <circle cx="12" cy="12" r="2"/>
+                            <path d="M12 2A10 10 0 0 0 2 12A10 10 0 0 0 12 22A10 10 0 0 0 22 12A10 10 0 0 0 12 2Z"/>
+                            <ellipse cx="12" cy="12" rx="10" ry="4"/>
+                            <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/>
+                            <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Kaggle</h3>
+                    <p class="text-gray-600 mb-4">
+                        A great place to practice with real-world datasets, participate in competitions, and find kernels.
+                    </p>
+                    <a href="https://www.kaggle.com/learn" class="text-indigo-600 hover:underline font-semibold">
+                        Visit Kaggle &rarr;
+                    </a>
+                </div>
+
+                <!-- Resource 3: edX -->
+                <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-4xl text-indigo-600 mb-4">
+                        <!-- Globe icon as SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10a15.3 15.3 0 0 1-4 10a15.3 15.3 0 0 1-4-10a15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">edX</h3>
+                    <p class="text-gray-600 mb-4">
+                        Provides high-quality online courses from the world's best universities and institutions.
+                    </p>
+                    <a href="https://www.edx.org/learn/data-science" class="text-indigo-600 hover:underline font-semibold">
+                        Visit edX &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 Brandyn Ewanek. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
